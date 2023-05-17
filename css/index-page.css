@@ -1,12 +1,31 @@
 body {
-  color: #000;
+  color: #ffffff;
 }
 a {
-  color: #000;
+  color: #f1f1f1;
 }
 a:hover {
-  color: #1488fc;
+  color: #000;
 }
 h3 {
   font-size: 17px;
+}
+
+.index_page_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  object-fit: cover;
+}
+.index_page_content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  overflow: auto;
 }
