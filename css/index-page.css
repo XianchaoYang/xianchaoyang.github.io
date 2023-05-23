@@ -1,11 +1,13 @@
 body {
-  color: #ffffff;
+  color: #333;
+  background-image: url("../static/image/bg1.img");
 }
 a {
-  color: #f1f1f1;
+  color: #333;
 }
 a:hover {
   color: #000;
+  font-size: 17px;
 }
 h3 {
   font-size: 17px;
